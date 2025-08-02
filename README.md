@@ -1,5 +1,7 @@
 # Coach Resiliente Filosófico - Alex Almeida
 
+**🌐 URL del sitio:** https://freudiandev.github.io/coach_resiliente_filosofico/
+
 ## 🧠 Descripción del Proyecto
 
 Sitio web profesional para Alex Almeida, coach de vida especializado en resiliencia con 18 años de experiencia en terapia personal. El proyecto combina una estética única que fusiona elementos impresionistas (inspirados en "El Grito") con la estética cyberpunk neuromancer, creando una experiencia visual liminal y única.

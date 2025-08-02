@@ -167,10 +167,10 @@ Texto: #e0e0e0 (gris claro)
 Una vez que tengas las imágenes, actualiza estas URLs en el `<head>`:
 
 ```html
-<!-- Cambiar "https://tu-dominio.com" por tu dominio real -->
-<meta property="og:image" content="https://tu-dominio.com/images/seo/og-alex-almeida-coach.jpg">
-<meta name="twitter:image" content="https://tu-dominio.com/images/seo/twitter-alex-almeida-coach.jpg">
-<meta property="whatsapp:image" content="https://tu-dominio.com/images/seo/whatsapp-preview.jpg">
+<!-- Cambiar "https://freudiandev.github.io/coach_resiliente_filosofico/" por tu dominio real -->
+<meta property="og:image" content="https://freudiandev.github.io/coach_resiliente_filosofico/assets/images/graph.png">
+<meta name="twitter:image" content="https://freudiandev.github.io/coach_resiliente_filosofico/assets/images/graph.png">
+<meta property="whatsapp:image" content="https://freudiandev.github.io/coach_resiliente_filosofico/assets/images/graph.png">
 ```
 
 ¡Con estas imágenes tendrás un SEO visual completo y professional en todas las plataformas!
