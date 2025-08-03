@@ -34,8 +34,8 @@
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     
     <!-- Stylesheets -->
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="galeria.css">
+    <link rel="stylesheet" href="styles.css?v=1.0">
+    <link rel="stylesheet" href="galeria.css?v=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
@@ -131,19 +131,19 @@
             <div class="container">
                 <div class="masonry-grid">
                     
-                    <!-- Arte Digital -->
-                    <div class="gallery-item art" data-category="art">
+                    <!-- ENSAYOS FILOSÓFICOS -->
+                    <div class="gallery-item writing" data-category="writing">
                         <div class="item-wrapper">
-                            <div class="item-placeholder art-placeholder">
-                                <i class="fas fa-palette"></i>
-                                <span>Arte Digital</span>
-                                <p>"Fragmentos de Resiliencia"</p>
+                            <div class="item-placeholder writing-placeholder">
+                                <i class="fas fa-scroll"></i>
+                                <span>Ensayo Nietzscheano</span>
+                                <p>"El Eterno Retorno de la Terapia"</p>
                             </div>
                             <div class="item-overlay">
-                                <h3>Fragmentos de Resiliencia</h3>
-                                <p>Representación visual del proceso de reconstrucción personal</p>
+                                <h3>El Eterno Retorno de la Terapia</h3>
+                                <p>Una reflexión sobre cómo cada sesión terapéutica es un acto de afirmación vital</p>
                                 <div class="item-actions">
-                                    <button class="btn-view" onclick="openModal('art1')">
+                                    <button class="btn-view" onclick="openModal('essay_nietzsche')">
                                         <i class="fas fa-eye"></i>
                                     </button>
                                     <button class="btn-share">
@@ -154,41 +154,18 @@
                         </div>
                     </div>
 
-                    <div class="gallery-item art" data-category="art">
+                    <div class="gallery-item writing" data-category="writing">
                         <div class="item-wrapper">
-                            <div class="item-placeholder art-placeholder">
+                            <div class="item-placeholder writing-placeholder">
                                 <i class="fas fa-brain"></i>
-                                <span>Arte Conceptual</span>
-                                <p>"Neuroplasticidad"</p>
+                                <span>Análisis Freudiano</span>
+                                <p>"El Inconsciente como Algoritmo"</p>
                             </div>
                             <div class="item-overlay">
-                                <h3>Neuroplasticidad</h3>
-                                <p>El cerebro que se reinventa a sí mismo</p>
+                                <h3>El Inconsciente como Algoritmo</h3>
+                                <p>Intersección entre psicoanálisis y neurociencia computacional</p>
                                 <div class="item-actions">
-                                    <button class="btn-view" onclick="openModal('art2')">
-                                        <i class="fas fa-eye"></i>
-                                    </button>
-                                    <button class="btn-share">
-                                        <i class="fas fa-share"></i>
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Escritos -->
-                    <div class="gallery-item writing" data-category="writing">
-                        <div class="item-wrapper">
-                            <div class="item-placeholder writing-placeholder">
-                                <i class="fas fa-quote-left"></i>
-                                <span>Ensayo</span>
-                                <p>"La Escucha como Acto Político"</p>
-                            </div>
-                            <div class="item-overlay">
-                                <h3>La Escucha como Acto Político</h3>
-                                <p>Reflexión sobre el poder transformador de ser verdaderamente escuchado</p>
-                                <div class="item-actions">
-                                    <button class="btn-view" onclick="openModal('writing1')">
+                                    <button class="btn-view" onclick="openModal('essay_freud')">
                                         <i class="fas fa-eye"></i>
                                     </button>
                                     <button class="btn-share">
@@ -202,15 +179,15 @@
                     <div class="gallery-item writing" data-category="writing">
                         <div class="item-wrapper">
                             <div class="item-placeholder writing-placeholder">
-                                <i class="fas fa-pen-fancy"></i>
-                                <span>Poesía</span>
-                                <p>"Arqueología del Alma"</p>
+                                <i class="fas fa-fist-raised"></i>
+                                <span>Crítica Marxista</span>
+                                <p>"La Mercantilización del Sufrimiento"</p>
                             </div>
                             <div class="item-overlay">
-                                <h3>Arqueología del Alma</h3>
-                                <p>Poemas sobre el proceso de desenterrar traumas y encontrar tesoros</p>
+                                <h3>La Mercantilización del Sufrimiento</h3>
+                                <p>Análisis marxista del coaching y la industria del bienestar</p>
                                 <div class="item-actions">
-                                    <button class="btn-view" onclick="openModal('writing2')">
+                                    <button class="btn-view" onclick="openModal('essay_marx')">
                                         <i class="fas fa-eye"></i>
                                     </button>
                                     <button class="btn-share">
@@ -221,19 +198,18 @@
                         </div>
                     </div>
 
-                    <!-- Videos -->
-                    <div class="gallery-item video" data-category="video">
+                    <div class="gallery-item writing" data-category="writing">
                         <div class="item-wrapper">
-                            <div class="item-placeholder video-placeholder">
-                                <i class="fas fa-play-circle"></i>
-                                <span>Documental Personal</span>
-                                <p>"18 Años: Un Viaje Interior"</p>
+                            <div class="item-placeholder writing-placeholder">
+                                <i class="fas fa-eye"></i>
+                                <span>Genealogía Foucaultiana</span>
+                                <p>"Disciplinar el Alma: Terapia y Biopoder"</p>
                             </div>
                             <div class="item-overlay">
-                                <h3>18 Años: Un Viaje Interior</h3>
-                                <p>Documental autobiográfico sobre el proceso terapéutico</p>
+                                <h3>Disciplinar el Alma: Terapia y Biopoder</h3>
+                                <p>Análisis foucaultiano de las tecnologías del yo en la práctica terapéutica</p>
                                 <div class="item-actions">
-                                    <button class="btn-view" onclick="openModal('video1')">
+                                    <button class="btn-view" onclick="openModal('essay_foucault')">
                                         <i class="fas fa-eye"></i>
                                     </button>
                                     <button class="btn-share">
@@ -244,18 +220,18 @@
                         </div>
                     </div>
 
-                    <div class="gallery-item video" data-category="video">
+                    <div class="gallery-item writing" data-category="writing">
                         <div class="item-wrapper">
-                            <div class="item-placeholder video-placeholder">
-                                <i class="fas fa-microphone"></i>
-                                <span>Audio-Visual</span>
-                                <p>"Meditaciones Urbanas"</p>
+                            <div class="item-placeholder writing-placeholder">
+                                <i class="fas fa-tv"></i>
+                                <span>Análisis Baudrillardiano</span>
+                                <p>"La Hiperrealidad del Bienestar"</p>
                             </div>
                             <div class="item-overlay">
-                                <h3>Meditaciones Urbanas</h3>
-                                <p>Reflexiones grabadas en espacios de la ciudad</p>
+                                <h3>La Hiperrealidad del Bienestar</h3>
+                                <p>Cómo los simulacros de felicidad ocultan el sufrimiento real</p>
                                 <div class="item-actions">
-                                    <button class="btn-view" onclick="openModal('video2')">
+                                    <button class="btn-view" onclick="openModal('essay_baudrillard')">
                                         <i class="fas fa-eye"></i>
                                     </button>
                                     <button class="btn-share">
@@ -266,19 +242,131 @@
                         </div>
                     </div>
 
-                    <!-- Diseños -->
+                    <!-- POESÍA FILOSÓFICA -->
+                    <div class="gallery-item writing" data-category="writing">
+                        <div class="item-wrapper">
+                            <div class="item-placeholder writing-placeholder">
+                                <i class="fas fa-feather-alt"></i>
+                                <span>Poema Kantiano</span>
+                                <p>"Crítica de la Razón Doliente"</p>
+                            </div>
+                            <div class="item-overlay">
+                                <h3>Crítica de la Razón Doliente</h3>
+                                <p>Poema sobre los límites del conocimiento del propio sufrimiento</p>
+                                <div class="item-actions">
+                                    <button class="btn-view" onclick="openModal('poem_kant')">
+                                        <i class="fas fa-eye"></i>
+                                    </button>
+                                    <button class="btn-share">
+                                        <i class="fas fa-share"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item writing" data-category="writing">
+                        <div class="item-wrapper">
+                            <div class="item-placeholder writing-placeholder">
+                                <i class="fas fa-cross"></i>
+                                <span>Verso Dostoievskiano</span>
+                                <p>"El Idiota Que Sana"</p>
+                            </div>
+                            <div class="item-overlay">
+                                <h3>El Idiota Que Sana</h3>
+                                <p>Poemas inspirados en la compasión radical de Dostoievski</p>
+                                <div class="item-actions">
+                                    <button class="btn-view" onclick="openModal('poem_dostoievski')">
+                                        <i class="fas fa-eye"></i>
+                                    </button>
+                                    <button class="btn-share">
+                                        <i class="fas fa-share"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- ARTE CYBERPUNK -->
+                    <div class="gallery-item art" data-category="art">
+                        <div class="item-wrapper">
+                            <div class="item-placeholder art-placeholder cyberpunk">
+                                <i class="fas fa-microchip"></i>
+                                <span>Arte Neural</span>
+                                <p>"Neuromancer Interior"</p>
+                            </div>
+                            <div class="item-overlay">
+                                <h3>Neuromancer Interior</h3>
+                                <p>Visualización del inconsciente como ciberespacio gibsoniano</p>
+                                <div class="item-actions">
+                                    <button class="btn-view" onclick="openModal('art_neuromancer')">
+                                        <i class="fas fa-eye"></i>
+                                    </button>
+                                    <button class="btn-share">
+                                        <i class="fas fa-share"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item art" data-category="art">
+                        <div class="item-wrapper">
+                            <div class="item-placeholder art-placeholder cyberpunk">
+                                <i class="fas fa-robot"></i>
+                                <span>Híbrido</span>
+                                <p>"Cyborg Terapéutico"</p>
+                            </div>
+                            <div class="item-overlay">
+                                <h3>Cyborg Terapéutico</h3>
+                                <p>Representación del terapeuta como híbrido humano-máquina de escucha</p>
+                                <div class="item-actions">
+                                    <button class="btn-view" onclick="openModal('art_cyborg')">
+                                        <i class="fas fa-eye"></i>
+                                    </button>
+                                    <button class="btn-share">
+                                        <i class="fas fa-share"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item art" data-category="art">
+                        <div class="item-wrapper">
+                            <div class="item-placeholder art-placeholder cyberpunk">
+                                <i class="fas fa-transgender-alt"></i>
+                                <span>Identidad Fluida</span>
+                                <p>"Posthumano Emocional"</p>
+                            </div>
+                            <div class="item-overlay">
+                                <h3>Posthumano Emocional</h3>
+                                <p>Exploración visual de identidades fluidas más allá del binario</p>
+                                <div class="item-actions">
+                                    <button class="btn-view" onclick="openModal('art_posthuman')">
+                                        <i class="fas fa-eye"></i>
+                                    </button>
+                                    <button class="btn-share">
+                                        <i class="fas fa-share"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- DISEÑOS CONCEPTUALES -->
                     <div class="gallery-item design" data-category="design">
                         <div class="item-wrapper">
                             <div class="item-placeholder design-placeholder">
-                                <i class="fas fa-vector-square"></i>
+                                <i class="fas fa-brain"></i>
                                 <span>Infografía</span>
-                                <p>"Mapa de la Resiliencia"</p>
+                                <p>"Mapa del Neurocapitalismo"</p>
                             </div>
                             <div class="item-overlay">
-                                <h3>Mapa de la Resiliencia</h3>
-                                <p>Infografía que visualiza el proceso de construcción de resiliencia</p>
+                                <h3>Mapa del Neurocapitalismo</h3>
+                                <p>Visualización de cómo el capital coloniza la atención y las emociones</p>
                                 <div class="item-actions">
-                                    <button class="btn-view" onclick="openModal('design1')">
+                                    <button class="btn-view" onclick="openModal('design_neurocap')">
                                         <i class="fas fa-eye"></i>
                                     </button>
                                     <button class="btn-share">
@@ -292,15 +380,15 @@
                     <div class="gallery-item design" data-category="design">
                         <div class="item-wrapper">
                             <div class="item-placeholder design-placeholder cyberpunk">
-                                <i class="fas fa-robot"></i>
-                                <span>Diseño Cyberpunk</span>
-                                <p>"Interface Mental"</p>
+                                <i class="fas fa-memory"></i>
+                                <span>Interface Neural</span>
+                                <p>"Implante de Resiliencia"</p>
                             </div>
                             <div class="item-overlay">
-                                <h3>Interface Mental</h3>
-                                <p>Diseño cyberpunk que representa la mente como sistema</p>
+                                <h3>Implante de Resiliencia</h3>
+                                <p>Diseño especulativo de tecnología neural para procesamiento emocional</p>
                                 <div class="item-actions">
-                                    <button class="btn-view" onclick="openModal('design2')">
+                                    <button class="btn-view" onclick="openModal('design_implant')">
                                         <i class="fas fa-eye"></i>
                                     </button>
                                     <button class="btn-share">
@@ -311,19 +399,64 @@
                         </div>
                     </div>
 
-                    <!-- Fotografías -->
+                    <!-- VIDEOS EXPERIMENTALES -->
+                    <div class="gallery-item video" data-category="video">
+                        <div class="item-wrapper">
+                            <div class="item-placeholder video-placeholder">
+                                <i class="fas fa-film"></i>
+                                <span>Documental</span>
+                                <p>"18 Años en el Diván del Algoritmo"</p>
+                            </div>
+                            <div class="item-overlay">
+                                <h3>18 Años en el Diván del Algoritmo</h3>
+                                <p>Documental personal sobre terapia en la era digital</p>
+                                <div class="item-actions">
+                                    <button class="btn-view" onclick="openModal('video_algorithm')">
+                                        <i class="fas fa-eye"></i>
+                                    </button>
+                                    <button class="btn-share">
+                                        <i class="fas fa-share"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item video" data-category="video">
+                        <div class="item-wrapper">
+                            <div class="item-placeholder video-placeholder cyberpunk">
+                                <i class="fas fa-vr-cardboard"></i>
+                                <span>Realidad Virtual</span>
+                                <p>"Inmersión en el Inconsciente"</p>
+                            </div>
+                            <div class="item-overlay">
+                                <h3>Inmersión en el Inconsciente</h3>
+                                <p>Experiencia VR de navegación por paisajes psíquicos</p>
+                                <div class="item-actions">
+                                    <button class="btn-view" onclick="openModal('video_vr')">
+                                        <i class="fas fa-eye"></i>
+                                    </button>
+                                    <button class="btn-share">
+                                        <i class="fas fa-share"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FOTOGRAFÍAS CONCEPTUALES -->
                     <div class="gallery-item photo" data-category="photo">
                         <div class="item-wrapper">
                             <div class="item-placeholder photo-placeholder">
-                                <i class="fas fa-camera-retro"></i>
-                                <span>Fotografía Urbana</span>
-                                <p>"Soledad Compartida"</p>
+                                <i class="fas fa-city"></i>
+                                <span>Foto-Ensayo</span>
+                                <p>"Vigilar y Sanar"</p>
                             </div>
                             <div class="item-overlay">
-                                <h3>Soledad Compartida</h3>
-                                <p>Serie fotográfica sobre la conexión humana en espacios urbanos</p>
+                                <h3>Vigilar y Sanar</h3>
+                                <p>Serie fotográfica sobre espacios terapéuticos y arquitecturas de control</p>
                                 <div class="item-actions">
-                                    <button class="btn-view" onclick="openModal('photo1')">
+                                    <button class="btn-view" onclick="openModal('photo_surveillance')">
                                         <i class="fas fa-eye"></i>
                                     </button>
                                     <button class="btn-share">
@@ -336,16 +469,16 @@
 
                     <div class="gallery-item photo" data-category="photo">
                         <div class="item-wrapper">
-                            <div class="item-placeholder photo-placeholder">
-                                <i class="fas fa-leaf"></i>
-                                <span>Naturaleza</span>
-                                <p>"Ciclos de Renovación"</p>
+                            <div class="item-placeholder photo-placeholder cyberpunk">
+                                <i class="fas fa-satellite-dish"></i>
+                                <span>Tecnología</span>
+                                <p>"Prótesis Emocionales"</p>
                             </div>
                             <div class="item-overlay">
-                                <h3>Ciclos de Renovación</h3>
-                                <p>Fotografías que capturan los procesos naturales como metáfora de sanación</p>
+                                <h3>Prótesis Emocionales</h3>
+                                <p>Fotografías de tecnología como extensión del procesamiento emocional</p>
                                 <div class="item-actions">
-                                    <button class="btn-view" onclick="openModal('photo2')">
+                                    <button class="btn-view" onclick="openModal('photo_prosthesis')">
                                         <i class="fas fa-eye"></i>
                                     </button>
                                     <button class="btn-share">
@@ -417,7 +550,13 @@
         </div>
     </footer>
 
+    <!-- p5.js para animaciones -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.7.0/p5.min.js"></script>
+    
     <script src="script.js"></script>
-    <script src="galeria.js"></script>
+    <script src="p5-animations.js?v=2.0"></script>
+    <script src="p5-video-animations.js?v=2.0"></script>
+    <script src="galeria-content.js?v=2.0"></script>
+    <script src="galeria-clean.js?v=2.0"></script>
 </body>
 </html>

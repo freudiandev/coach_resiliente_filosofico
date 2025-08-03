@@ -115,89 +115,355 @@ function handleModalKeydown(e) {
 // Contenido específico para cada obra
 function getModalContent(itemId) {
     const contents = {
-        'art1': `
-            <div class="modal-artwork">
-                <div class="artwork-placeholder">
-                    <i class="fas fa-palette" style="font-size: 4rem; color: var(--accent-primary); margin-bottom: 2rem;"></i>
-                    <h2>Fragmentos de Resiliencia</h2>
-                    <p style="color: var(--text-secondary); margin: 1rem 0 2rem 0;">Arte digital - 2024</p>
-                </div>
-                <div class="artwork-description">
-                    <h3>Descripción de la obra</h3>
-                    <p>Esta pieza representa los momentos de quiebre y reconstrucción que he experimentado 
-                    a lo largo de 18 años de terapia. Cada fragmento de color simboliza una parte de mí 
-                    que se ha roto y se ha vuelto a formar, más fuerte.</p>
-                    
-                    <h4>Técnica utilizada</h4>
-                    <p>Arte digital generativo usando algoritmos de fragmentación y reconstrucción, 
-                    creando patrones que emergen del caos hacia el orden.</p>
-                    
-                    <h4>Reflexión personal</h4>
-                    <p>"En cada fragmento veo una lección aprendida, en cada color una emoción procesada. 
-                    Esta obra nació en un momento de crisis y se completó en un momento de claridad."</p>
-                </div>
-            </div>
-        `,
-        'art2': `
-            <div class="modal-artwork">
-                <div class="artwork-placeholder">
-                    <i class="fas fa-brain" style="font-size: 4rem; color: var(--accent-primary); margin-bottom: 2rem;"></i>
-                    <h2>Neuroplasticidad</h2>
-                    <p style="color: var(--text-secondary); margin: 1rem 0 2rem 0;">Arte conceptual - 2023</p>
-                </div>
-                <div class="artwork-description">
-                    <h3>Concepto</h3>
-                    <p>Visualización del cerebro como una red en constante cambio, capaz de crear nuevas 
-                    conexiones y patrones de pensamiento. Cada línea representa una sinapsis, cada nodo 
-                    una posibilidad de cambio.</p>
-                    
-                    <h4>Inspiración científica</h4>
-                    <p>Basado en estudios de neuroplasticidad y mi propia experiencia de cómo la terapia 
-                    ha literalmente reestructurado mi forma de pensar y procesar emociones.</p>
-                </div>
-            </div>
-        `,
-        'writing1': `
+        // ENSAYOS FILOSÓFICOS
+        'essay_nietzsche': `
             <div class="modal-writing">
-                <h2>La Escucha como Acto Político</h2>
-                <p style="color: var(--text-secondary); margin: 1rem 0 2rem 0;">Ensayo - 2024</p>
+                <h2>El Eterno Retorno de la Terapia</h2>
+                <p style="color: var(--text-secondary); margin: 1rem 0 2rem 0;">Ensayo Nietzscheano - 2024</p>
                 
                 <div class="writing-content">
-                    <p><em>Fragmento del ensayo:</em></p>
+                    <p><em>"¿Y si tuvieras que vivir esta vida una vez más y incontables veces más?"</em> - preguntaba Nietzsche. En 18 años de terapia, he comprendido que cada sesión es un acto de afirmación vital ante el eterno retorno del sufrimiento.</p>
+                    
                     <blockquote>
-                    "Ser escuchado no es un lujo, es un derecho humano fundamental que nuestra sociedad 
-                    ha convertido en privilegio. Cuando alguien te escucha verdaderamente, sin juicio, 
-                    sin prisa por resolver o aconsejar, está realizando un acto de resistencia contra 
-                    un mundo que nos ha enseñado que solo importamos cuando producimos, cuando somos útiles.
+                    <strong>I. La Repetición como Liberación</strong><br><br>
+                    
+                    Cada lunes a las 3 PM durante dieciocho años. La misma silla, el mismo ritual, las mismas preguntas que retornan como un mantra: "¿Cómo te sientes?" "¿Qué ha pasado esta semana?" "¿Qué significa esto para ti?"
                     
                     <br><br>
                     
-                    En 18 años de terapia he descubierto que la escucha especializada no es solo una 
-                    técnica terapéutica, es una forma de justicia social. Porque cuando escuchas a alguien 
-                    en su dolor, en su confusión, en su búsqueda de sentido, le estás devolviendo su 
-                    humanidad completa."
+                    Al principio, esta repetición me parecía una tortura. Nietzsche diría que es precisamente ahí donde reside el poder transformador del eterno retorno: no como castigo, sino como la más alta afirmación de la vida. Si acepto que tendré que revivir este dolor infinitas veces, entonces debo encontrar una manera no solo de soportarlo, sino de amarlo.
+                    
+                    <br/><br/>
+                    
+                    <strong>II. El Übermensch Terapéutico</strong><br/><br/>
+                    
+                    El superhombre nietzscheano no es un ser superior biológicamente, sino quien ha logrado crear sus propios valores más allá del bien y del mal establecido. En terapia, uno se convierte en arqueólogo de sí mismo, desenterrando los valores impuestos por la familia, la sociedad, la religión, para forjar una moral propia.
+                    
+                    <br><br>
+                    
+                    Durante años creí que mis ataques de pánico eran una debilidad moral. La sociedad me había enseñado que la ansiedad era falta de fe, de fortaleza, de carácter. Fue necesario transmutar estos valores: la ansiedad no era debilidad sino sensibilidad extrema, no era cobardía sino hiperconciencia del mundo.
+                    
+                    <br><br>
+                    
+                    <strong>III. La Muerte de Dios en el Diván</strong><br><br>
+                    
+                    "Dios ha muerto y nosotros lo hemos matado" - pero en terapia descubres que no solo has matado a Dios, sino también al padre idealizado, a la madre perfecta, al yo que creías ser. Y en ese vacío, en esa nada, nace la posibilidad de crear.
+                    
+                    <br><br>
+                    
+                    La terapia es nihilismo activo: destruir para crear. Cada insight es un pequeño asesinato de ilusiones queridas. Cada avance es un paso hacia el abismo de la incertidumbre. Y sin embargo, en esa caída libre, aprendes a volar.
+                    
+                    <br><br>
+                    
+                    <strong>IV. Amor Fati Terapéutico</strong><br><br>
+                    
+                    "Mi fórmula para la grandeza en el hombre es amor fati: que nada se desee de otro modo, ni hacia adelante ni hacia atrás, ni en toda la eternidad."
+                    
+                    <br><br>
+                    
+                    Si tuviera que revivir cada crisis, cada breakdown, cada noche de insomnio llorando sin saber por qué - ¿podría decir sí? ¿Podría amar mi destino tal como fue?
+                    
+                    <br><br>
+                    
+                    Hoy, después de 18 años, la respuesta es un rotundo sí. No porque el dolor haya sido necesario en algún sentido cósmico, sino porque fue mío. Porque de él brotó esta capacidad de escuchar el dolor ajeno con una precisión quirúrgica, con una compasión que solo se forja en el fuego del sufrimiento propio.
+                    
+                    <br><br>
+                    
+                    <strong>Conclusión: El Coach como Übermensch</strong><br><br>
+                    
+                    El coach de vida que ha pasado por terapia intensiva no es un sanador que ha transcendido el dolor, sino un Übermensch que ha aprendido a danzar con él. No ofrece verdades absolutas sino la posibilidad de crear verdades propias. No promete la felicidad sino el coraje de ser auténtico ante el abismo.
+                    
+                    <br><br>
+                    
+                    Y cuando un nuevo cliente se sienta frente a mí, no le ofrezco soluciones sino algo más radical: la posibilidad de amar su destino, incluido su sufrimiento, incluida su imperfección, incluida su humanidad magnífica y terrible.
+                    
+                    <br><br>
+                    
+                    Porque al final, la pregunta no es cómo sanar del dolor, sino cómo transformarse a través de él en alguien que pueda decir: "Sí, quiero vivir esta vida exactamente como fue, y quiero ayudar a otros a hacer lo mismo."
+                    
                     </blockquote>
                     
-                    <h4>Sobre este ensayo</h4>
-                    <p>Este texto surge de mi experiencia tanto como paciente durante 18 años como 
-                    ahora en mi rol de coach. He visto cómo la falta de escucha especializada perpetúa 
-                    ciclos de dolor y cómo el acceso a ella puede ser transformador.</p>
+                    <h4>Referencias Nietzscheanas</h4>
+                    <p>• <em>Así habló Zaratustra</em> - El eterno retorno como prueba última<br>
+                    • <em>Más allá del bien y del mal</em> - La transvaloración de todos los valores<br>
+                    • <em>Ecce Homo</em> - Amor fati como fórmula de grandeza</p>
                 </div>
             </div>
         `,
-        'writing2': `
+        
+        'essay_freud': `
             <div class="modal-writing">
-                <h2>Arqueología del Alma</h2>
-                <p style="color: var(--text-secondary); margin: 1rem 0 2rem 0;">Poemario - 2023</p>
+                <h2>El Inconsciente como Algoritmo</h2>
+                <p style="color: var(--text-secondary); margin: 1rem 0 2rem 0;">Análisis Freudiano - 2024</p>
                 
                 <div class="writing-content">
-                    <h4>Poema I: "Excavación"</h4>
                     <blockquote>
-                    Con pinceles de palabras<br>
-                    desentraño cada capa,<br>
-                    cada estrato de dolor<br>
-                    que el tiempo sepultó.<br><br>
+                    <strong>Prefacio: El Código del Alma</strong><br><br>
                     
+                    Si Freud hubiera vivido en la era de la inteligencia artificial, habría reconocido inmediatamente la analogía: el inconsciente funciona como un algoritmo de aprendizaje automático, procesando constantemente datos (experiencias) para generar patrones de comportamiento, síntomas y asociaciones.
+                    
+                    <br><br>
+                    
+                    <strong>I. La Arquitectura del Inconsciente Digital</strong><br><br>
+                    
+                    En mis 18 años de análisis, he aprendido a decodificar mi propio "código fuente" psíquico. Como un algoritmo de machine learning, el inconsciente:
+                    
+                    <br><br>
+                    
+                    • Procesa INPUTS (experiencias traumáticas, placenteras, neutras)<br>
+                    • Ejecuta FUNCIONES de defensa (represión, proyección, sublimación)<br>
+                    • Genera OUTPUTS (síntomas, sueños, actos fallidos)<br>
+                    • Se ENTRENA constantemente con nuevos datos experienciales
+                    
+                    <br><br>
+                    
+                    Mi primer ataque de pánico a los 15 años fue un overflow del sistema: demasiada información emocional no procesada causó un crash. La terapia se convirtió en debugging psíquico.
+                    
+                    <br><br>
+                    
+                    <strong>II. Los Bugs del Sistema Psíquico</strong><br><br>
+                    
+                    Freud describió los síntomas neuróticos como "formaciones de compromiso" - el inconsciente encontrando soluciones imperfectas a conflictos irresolubles. En términos de programación, son bugs que el sistema desarrolla para seguir funcionando cuando el código principal está corrupto.
+                    
+                    <br><br>
+                    
+                    Mi compulsión por el control era un algoritmo defensivo: IF (situación_impredecible) THEN (crear_ilusión_de_control). Funcionaba a corto plazo pero causaba crashes mayores cuando la realidad contradecía mis predicciones.
+                    
+                    <br><br>
+                    
+                    <strong>III. Transferencia como Reconocimiento de Patrones</strong><br><br>
+                    
+                    La transferencia, ese fenómeno que Freud consideró central al psicoanálisis, es esencialmente un algoritmo de reconocimiento de patrones hiperactivado. El inconsciente, entrenado con datos de relaciones tempranas, "sobreajusta" (overfitting) y proyecta esos patrones en nuevas relaciones.
+                    
+                    <br><br>
+                    
+                    Durante años, transferí a cada terapeuta la imagen del padre ausente: esperaba que me abandonen, que no me entiendan, que me juzguen. Mi algoritmo relacional estaba sobreentrenado con datos de abandono y interpretaba incluso los silencios terapéuticos como confirmación de rechazo.
+                    
+                    <br><br>
+                    
+                    <strong>IV. La Interpretación como Refactoring</strong><br><br>
+                    
+                    Cuando un analista ofrece una interpretación, no está revelando una verdad oculta sino proponiendo una refactorización del código psíquico: "¿Y si este pattern que creías que era sobre X, en realidad es sobre Y?"
+                    
+                    <br><br>
+                    
+                    Recuerdo la interpretación que cambió mi vida: "¿Y si tu ansiedad no es miedo al fracaso sino miedo al éxito?" Súbitamente, 15 años de datos reconfigurados. El algoritmo que había etiquetado como "protección contra el fracaso" era en realidad "saboteo del éxito".
+                    
+                    <br><br>
+                    
+                    <strong>V. Los Sueños como Procesos en Background</strong><br><br>
+                    
+                    Freud llamó a los sueños "la vía regia al inconsciente". En términos computacionales, son procesos que corren en background mientras el sistema principal (consciencia) está en modo de suspensión.
+                    
+                    <br><br>
+                    
+                    Durante el sueño, el inconsciente procesa los datos del día, ejecuta rutinas de "limpieza" (como el garbage collection en programación), y actualiza algoritmos emocionales. Los sueños son los logs de estos procesos: crípticos para la consciencia despierta, pero llenos de información sobre el estado interno del sistema.
+                    
+                    <br><br>
+                    
+                    <strong>VI. La Pulsión de Muerte como Bug o Feature</strong><br><br>
+                    
+                    Freud postuló Thanatos, la pulsión de muerte, como una tendencia inherente de todos los organismos a regresar al estado inorgánico. En términos de sistemas, ¿es esto un bug fundamental de la vida o una feature necesaria?
+                    
+                    <br><br>
+                    
+                    Mis impulsos autodestructivos - cutting, relaciones tóxicas, sabotaje profesional - podrían entenderse como un algoritmo de autoreset cuando el sistema se vuelve demasiado complejo. La pulsión de muerte como ctrl+alt+del psíquico.
+                    
+                    <br><br>
+                    
+                    <strong>VII. El Superyo como Firewall</strong><br><br>
+                    
+                    El superyo freudiano funciona como un firewall psíquico: filtra impulsos del ello, bloquea contenidos inaceptables, genera warnings (culpa) cuando se detectan amenazas al orden moral interno.
+                    
+                    <br><br>
+                    
+                    Pero como todo firewall, puede volverse demasiado restrictivo. Mi superyo hipertrofiado bloqueaba no solo impulsos destructivos sino también creatividad, espontaneidad, placer. La terapia fue aprender a configurar un firewall más inteligente.
+                    
+                    <br><br>
+                    
+                    <strong>VIII. El Yo como Sistema Operativo</strong><br><br>
+                    
+                    El yo, en la segunda tópica freudiana, media entre las demandas del ello, las prohibiciones del superyo y las presiones de la realidad. Es el sistema operativo que debe gestionar múltiples procesos simultáneos con recursos limitados.
+                    
+                    <br><br>
+                    
+                    Un yo sano es como un OS estable: puede manejar multitasking, tiene buenos algoritmos de priorización, maneja eficientemente la memoria emocional. Un yo fragmentado es como un sistema que crashea constantemente, con memory leaks y procesos zombie que consumen recursos.
+                    
+                    <br><br>
+                    
+                    <strong>Conclusión: Hacia un Inconsciente Open Source</strong><br><br>
+                    
+                    La terapia psicoanalítica es el proceso de hacer open source el código del inconsciente. Por 18 años he estado haciendo code review de mi propio psyche, documentando bugs, refactorizando patterns disfuncionales, actualizando algoritmos emocionales.
+                    
+                    <br><br>
+                    
+                    Ahora, como coach, ofrezco sesiones de "pair programming" psíquico: trabajamos juntos para debuggear patrones de comportamiento, optimizar algorithms de toma de decisiones, y crear new features de resiliencia emocional.
+                    
+                    <br><br>
+                    
+                    Porque al final, el inconsciente no es un territorio misterioso e inaccesible, sino un sistema complejo pero comprensible. Y como todo sistema, puede ser observado, modificado y optimizado.
+                    
+                    <br><br>
+                    
+                    La pregunta no es si podemos hackear nuestro inconsciente, sino cómo hacerlo de manera ética, sostenible y en beneficio no solo propio sino colectivo.
+                    
+                    </blockquote>
+                    
+                    <h4>Referencias Freudianas</h4>
+                    <p>• <em>La interpretación de los sueños</em> - Los sueños como vía regia al inconsciente<br>
+                    • <em>Más allá del principio del placer</em> - Pulsión de muerte vs pulsión de vida<br>
+                    • <em>El yo y el ello</em> - La segunda tópica freudiana</p>
+                </div>
+            </div>
+        `,
+        
+        'essay_marx': `
+            <div class="modal-writing">
+                <h2>La Mercantilización del Sufrimiento</h2>
+                <p style="color: var(--text-secondary); margin: 1rem 0 2rem 0;">Crítica Marxista - 2024</p>
+                
+                <div class="writing-content">
+                    <blockquote>
+                    <strong>Introducción: El Capital Emocional</strong><br><br>
+                    
+                    Marx escribió sobre cómo el capitalismo aliena al trabajador de su producto, su trabajo, su especie y de sí mismo. En el siglo XXI, esta alienación se ha extendido al territorio más íntimo: nuestras emociones, nuestro sufrimiento, nuestra búsqueda de bienestar se han convertido en mercancías.
+                    
+                    <br><br>
+                    
+                    <strong>I. La Industria del Bienestar como Plus-Valía Emocional</strong><br><br>
+                    
+                    El coaching, la terapia, la autoayuda - toda la industria del bienestar - funciona bajo la lógica capitalista de extracción de plus-valía. El "producto" que vendemos los coaches no es tangible: es la promesa de transformación, la esperanza de una vida mejor.
+                    
+                    <br><br>
+                    
+                    Pero aquí surge la primera contradicción: ¿cómo puede ser ético extraer ganancia del sufrimiento humano? ¿No estamos, los coaches, participando en la lógica que Marx denunció - apropiarnos del excedente de valor creado por el trabajo emocional de nuestros clientes?
+                    
+                    <br><br>
+                    
+                    En mis 18 años de terapia, he pagado aproximadamente $50,000 dólares. He generado ganancias para múltiples profesionales de la salud mental. Mi sufrimiento se convirtió en su sustento. ¿Es esto explotación o colaboración?
+                    
+                    <br><br>
+                    
+                    <strong>II. La Alienación Terapéutica</strong><br><br>
+                    
+                    Marx identificó cuatro formas de alienación del trabajador. En el contexto terapéutico, encontramos paralelos inquietantes:
+                    
+                    <br><br>
+                    
+                    • <strong>Alienación del producto:</strong> El cliente se aliena de su propio proceso de sanación, creyendo que la "cura" viene del exterior (el terapeuta) en lugar de su propia capacidad de transformación.
+                    
+                    <br><br>
+                    
+                    • <strong>Alienación del proceso:</strong> El proceso terapéutico se vuelve rutinario, mechanizado, siguiendo manuales y protocolos que ignoran la singularidad del sufrimiento humano.
+                    
+                    <br><br>
+                    
+                    • <strong>Alienación de la especie:</strong> La terapia individualista ignora las causas estructurales del malestar. Se patologiza al individuo en lugar de cuestionar el sistema que produce sufrimiento masivo.
+                    
+                    <br><br>
+                    
+                    • <strong>Alienación de sí mismo:</strong> El cliente internaliza la lógica del mercado terapéutico: "debo ser productivo emocionalmente", "debo optimizar mi bienestar", "soy responsable de mi propia felicidad".
+                    
+                    <br><br>
+                    
+                    <strong>III. El Lumpenproletariado Emocional</strong><br><br>
+                    
+                    Marx describió al lumpenproletariado como la clase más baja del proletariado. En el capitalismo emocional contemporáneo, existe un "lumpenproletariado emocional": personas cuyo sufrimiento es tan profundo, tan crónico, tan "poco rentable" terapéuticamente, que son excluidas del mercado del bienestar.
+                    
+                    <br><br>
+                    
+                    Los homeless con enfermedades mentales, los adictos sin recursos, las personas con trastornos de personalidad "difíciles" - ellos no pueden pagar por transformación. Su sufrimiento no genera plus-valía. Son los desechables del sistema de salud mental.
+                    
+                    <br><br>
+                    
+                    <strong>IV. La Fetichización de la Resiliencia</strong><br><br>
+                    
+                    Marx explicó cómo el capitalismo fetichiza las mercancías - les atribuye propiedades místicas que ocultan las relaciones sociales de producción. La industria del bienestar ha fetichizado la "resiliencia".
+                    
+                    <br><br>
+                    
+                    La resiliencia se presenta como una cualidad individual que uno puede "desarrollar" o "comprar" a través de coaching, cursos, libros. Se oculta que la resiliencia es, fundamentalmente, un recurso social: necesitas comunidad, redes de apoyo, estabilidad económica, acceso a servicios de salud.
+                    
+                    <br><br>
+                    
+                    Cuando digo "he desarrollado resiliencia extraordinaria", estoy participando en esta fetichización. La verdad es que tuve el privilegio de acceder a terapia durante 18 años porque tuve familia que pagó por ella, trabajo que me permitió costearla, un sistema de salud que la facilitó.
+                    
+                    <br><br>
+                    
+                    <strong>V. La Falsa Conciencia del Bienestar</strong><br><br>
+                    
+                    La industria del bienestar promueve una forma de falsa conciencia: nos hace creer que nuestro malestar es individual, que la solución está en optimizarnos a nosotros mismos, que podemos "hackear" nuestra felicidad independientemente de las condiciones materiales de existencia.
+                    
+                    <br><br>
+                    
+                    Esta falsa conciencia es funcional al capitalismo: mientras las personas buscan soluciones individuales a problemas sistémicos, no cuestionan las estructuras que producen desigualdad, alienación y sufrimiento masivo.
+                    
+                    <br><br>
+                    
+                    <strong>VI. Hacia una Praxis Terapéutica Revolucionaria</strong><br><br>
+                    
+                    ¿Es posible una práctica de coaching que no reproduzca la lógica capitalista? Marx nos daría algunas pistas:
+                    
+                    <br><br>
+                    
+                    • <strong>Precio justo:</strong> Cobrar según las posibilidades materiales reales del cliente, no según el "valor de mercado" del servicio.
+                    
+                    <br><br>
+                    
+                    • <strong>Análisis estructural:</strong> Incluir en el proceso terapéutico el análisis de las condiciones materiales que producen malestar.
+                    
+                    <br><br>
+                    
+                    • <strong>Dimensión colectiva:</strong> Entender que la sanación individual es inseparable de la transformación social.
+                    
+                    <br><br>
+                    
+                    • <strong>Desmitificación:</strong> Explicar claramente los procesos, evitar el misticismo que oculta las dinámicas reales de poder en la relación terapéutica.
+                    
+                    <br><br>
+                    
+                    <strong>VII. La Contradicción del Coach Consciente</strong><br><br>
+                    
+                    Aquí llego a mi propia contradicción: soy un producto del capitalismo terapéutico (18 años de terapia privada) que ahora ofrece servicios de coaching. ¿Soy parte del problema o de la solución?
+                    
+                    <br><br>
+                    
+                    Marx diría que la contradicción es inherente al sistema: no puedo escapar completamente de la lógica capitalista, pero puedo trabajar conscientemente para subvertirla desde dentro.
+                    
+                    <br><br>
+                    
+                    Por eso ofrezco las primeras 3 sesiones gratuitas. Por eso mi precio no es fijo sino acordado según las posibilidades reales de cada persona. Por eso incluyo análisis sociológico y político en mi enfoque terapéutico.
+                    
+                    <br><br>
+                    
+                    <strong>Conclusión: La Revolución Emocional</strong><br><br>
+                    
+                    La verdadera transformación personal no puede separarse de la transformación social. Un coaching verdaderamente liberador debe incluir la conciencia de clase, el análisis de las estructuras de poder, la comprensión de cómo el capitalismo coloniza nuestra subjetividad.
+                    
+                    <br><br>
+                    
+                    No basta con ayudar a individuos a "optimizar" sus vidas dentro de un sistema que produce sufrimiento estructural. Necesitamos una praxis terapéutica que sea también praxis revolucionaria.
+                    
+                    <br><br>
+                    
+                    Como decía Marx: "Los filósofos no han hecho más que interpretar de diversos modos el mundo, pero de lo que se trata es de transformarlo." Los coaches no deberíamos limitarnos a ayudar a individuos a adaptarse mejor al mundo tal como es, sino a imaginar y construir un mundo donde el bienestar no sea un privilegio sino un derecho.
+                    
+                    </blockquote>
+                    
+                    <h4>Referencias Marxistas</h4>
+                    <p>• <em>El Capital</em> - Teoría de la plus-valía y fetichismo de la mercancía<br>
+                    • <em>Manuscritos económico-filosóficos</em> - Teoría de la alienación<br>
+                    • <em>Tesis sobre Feuerbach</em> - Filosofía de la praxis</p>
+                </div>
+            </div>
+        `,
+        'poem1': `
+            <div class="modal-writing">
+                <h2>Arqueología del Ser</h2>
+                <p style="color: var(--text-secondary); margin: 1rem 0 2rem 0;">Poesía terapéutica - 2024</p>
+                
+                <div class="writing-content">
+                    <blockquote>
                     No busco tesoros de oro,<br>
                     sino fragmentos de mí<br>
                     que creí perdidos<br>
